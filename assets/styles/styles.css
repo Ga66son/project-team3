@@ -39,6 +39,11 @@ button{
     gap: 60px;
 }
 
+.top-nav a{
+    color: inherit;
+    cursor: pointer;
+}
+
 .nav-btn{
     padding: 8px 32px;
     background-color: #4CE0D7;
