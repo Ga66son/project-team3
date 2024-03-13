@@ -1,6 +1,6 @@
 /* section1 start m.tvaradze */
 .section1{
-    background-image: url('../assets/img/background.png');
+    background-image: "../assets/img/background.png";
     max-width: 1272px;
     background-size: 100% 100%;
     height: 559px;
