@@ -44,11 +44,28 @@ button{
     cursor: pointer;
 }
 
+.top-nav li{
+    transition: all .2s;
+}
+
+.top-nav li:hover{
+    color: #000;
+    scale: 1.2;
+    transition: all .2s;
+}
+
 .nav-btn{
     padding: 8px 32px;
     background-color: #4CE0D7;
     border-radius: 40px;
     text-transform: inherit;
+    transition: all .2s;
+}
+
+.nav-btn:hover{
+    background-color: #F25E5E;
+    scale: 1.1;
+    transition: all .2s;
 }
 
 .nav-search{
