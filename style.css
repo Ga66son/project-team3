@@ -53,6 +53,12 @@ h2 {
     padding-bottom: 30px;
     background-color: #FFFFFF;
     border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.topic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .topic-card-image {
@@ -62,6 +68,14 @@ h2 {
     height: 150px;
 }
 
+.topic-card-image img {
+    transition: transform 0.3s, 
+}
+
+.topic-card-image img:hover {
+    transform: scale(1.1);
+}
+
 .topic-header {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -69,6 +83,11 @@ h2 {
     line-height: 30px;
     color: #262626;
     margin-bottom: 29px;
+    transition: transform 0.3s,
+}
+
+.topic-header:hover {
+    transform: scale(1.1);
 }
 
 .button-small {
@@ -82,6 +101,12 @@ h2 {
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+.button-small:hover {
+    transform: scale(1.1);
+    font-size: 14px;
 }
 
 
