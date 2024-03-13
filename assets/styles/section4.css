@@ -1,7 +1,7 @@
 /* section4 start m.tvaradze */
 .section4{
-    margin-left: 188px ;
-    margin-right: 188px ;
+    max-width: 1204px;
+    margin: auto;
     margin-bottom:88.2px  ;
     display: flex;
     flex-direction: column;
