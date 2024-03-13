@@ -1,0 +1,103 @@
+.fashion-wrapper{
+    max-width: 1204px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding-bottom: 38px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 97px;
+}
+
+.fashion-bg{
+    width: 100%;
+    position: relative;
+    margin-bottom: 23px;
+}
+
+.fashion-bg img{
+    width: 100%;
+    background-size: cover;
+}
+
+.fashion-btn{
+    position: absolute;
+    left: 47px;
+    top: 23px;
+    color: #ffffff;
+    background-color: #262626;
+    padding: 10px 81px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.fashion-article{
+    padding: 0 100px 0 64px;
+    margin-bottom: 40px;
+}
+
+.fashion-info-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #BCBCBC;
+    margin-bottom: 30px;
+}
+
+.fashion-info{
+    display: flex;
+    align-items: center;
+}
+
+.fashion-info>*{
+    margin-right: 125px;
+}
+
+.fashion-info-img{
+    width: 65px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.fashion-info-img img{
+    width: 100%;
+    background-size: cover;
+}
+
+.special{
+    color: #F25E5E;
+    line-height: 21px;
+    letter-spacing: 2.4px;
+    font-weight: 700;
+}
+
+.fashion-content{
+    max-width: 790px;
+}
+
+.fashion-content h2{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.fashion-content p{
+    font-size: 16px;
+    line-height:24px;
+    margin-bottom: 40px;
+}
+
+.fashion-more a{
+    color: #4CE0D7;
+    line-height: 18px;
+    letter-spacing: 2.4;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.fashion-more img{
+    margin-right: 25px;
+}
