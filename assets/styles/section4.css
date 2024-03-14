@@ -59,7 +59,15 @@
   color: #ffffff;
   top: 20.67px;
   left: 34.14px;
+  transition: 0.3s;
 }
+
+.life:hover {
+  background-color:#ffffff;
+  color:#262626;
+  scale: 1.1;
+}
+
 .iconstress {
   display: flex;
   align-items: center;
@@ -137,11 +145,13 @@
 .arrowpart {
   display: flex;
   align-items: center;
+  margin-left: 25px;
 }
-.arrowpart:hover {
+
+.arrowpart img, span {
   cursor: pointer;
-  text-decoration: underline;
 }
+
 .summerphoto {
   width: 100%;
   height: 278px;

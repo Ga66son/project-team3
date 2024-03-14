@@ -20,7 +20,6 @@ button {
 
 .header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   font-size: 14px;
   line-height: 21px;
@@ -29,6 +28,18 @@ button {
   margin-bottom: 10px;
   font-weight: 700;
   color: #262626;
+}
+
+.header-nav {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  transition: 0.3s;
+}
+
+.header-nav:hover {
+  color: #39cbc1;
+  text-decoration: underline;
 }
 
 .top-nav-wrapper,
@@ -49,11 +60,37 @@ button {
   background-color: #4ce0d7;
   border-radius: 40px;
   text-transform: inherit;
+  cursor: pointer;
+  transition: transform 0.3s, font-size 0.3s;
+}
+
+.nav-btn:hover {
+  transform: scale(1.1);
+  font-size: 14px;
 }
 
 .nav-search {
+  position: relative;
   width: 47px;
   height: 47px;
-  border-radius: 50%;
+  border-radius: 23.5px;
   background-color: #4ce0d7;
+  transition: width 1s;
+  cursor: pointer;
+}
+
+.nav-search:hover {
+  width: 150px;
+}
+
+.nav-search > img {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: left 0.3s;
+}
+
+.nav-search:hover img {
+  left: 25px
 }

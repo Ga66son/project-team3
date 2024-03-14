@@ -30,7 +30,16 @@
   line-height: 18px;
   font-weight: 700;
   border-radius: 40px;
+  transition: 0.3s;
 }
+
+.fashion-btn:hover {
+  background-color:#ffffff;
+  color:#262626;
+  scale: 1.1;
+}
+
+
 
 .fashion-article {
   padding: 0 100px 0 64px;
