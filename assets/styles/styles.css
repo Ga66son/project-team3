@@ -35,6 +35,7 @@ button {
   font-size: 14px;
   line-height: 21px;
   transition: 0.3s;
+  letter-spacing: normal;
 }
 
 .header-nav:hover {

@@ -110,8 +110,8 @@ a {
 }
 
 .Button-5:hover {
-  background-color:#ffffff;
-  color:#262626;
+  background-color: #ffffff;
+  color: #262626;
   scale: 1.1;
 }
 
@@ -217,8 +217,8 @@ p {
   cursor: pointer;
 }
 
-.footer-ul li img:hover{
-  animation: pulse 1s infinite;
+.footer-ul li img:hover {
+  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
@@ -237,6 +237,7 @@ p {
   display: flex;
   align-items: center;
 }
+
 .LastParagraph p {
   font-family: "Poppins";
   font-weight: 700;
